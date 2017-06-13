@@ -47,5 +47,5 @@ git checkout -b feat-one
 git push -u origin feat-one
 ```
 - voila... you are done
-
+- Now create a pull request where you should select base branch as `develop`. Anyone who verifies and validates the changes can merge the changes to `develop` and eventually which gets promoted to `master` as well. 
 
