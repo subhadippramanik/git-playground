@@ -1,7 +1,3 @@
-//------------------------------------------------------------------------------
-// Copyright Siemens Switzerland Ltd., 2017
-//------------------------------------------------------------------------------
-
 package com.demo.app;
 
 import org.springframework.boot.SpringApplication;

@@ -1,15 +1,10 @@
 package com.demo.repository;
 
-import javax.persistence.EntityManager;
-
-import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
 import com.demo.model.Person;
 
-public class PersonRepository extends SimpleJpaRepository<Person, Integer> {
 
-  public PersonRepository(Class<Person> domainClass, EntityManager em) {
-    super(domainClass, em);
-  }
+public interface PersonRepository extends CrudRepository<Person, Integer> {  
   // no content
 }
